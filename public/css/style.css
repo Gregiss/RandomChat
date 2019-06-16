@@ -1,0 +1,499 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body,html{
+    background: #6535d8;
+}
+
+.container_blue{
+    width: 100%;
+    height: 1200px;
+    background-image: url('/img/bg-home-01.png');
+    background-size: cover;
+    position: relative;
+    top: -250px;
+    z-index: 10;
+    text-align: center;
+    color: #fff;
+}
+
+.header h1{
+    color: #fff;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.container_blue .msg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container_blue .msg svg{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: 70px;
+}
+
+button{
+    width: 400px;
+    background: #fff;
+    position: relative;
+    top: 140px;
+    color: #6435d7;
+    font-size: 22px;
+    border: none;
+    outline: none !important;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.50);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.who{
+    position: relative;
+    background: #462396;
+    width: 100%;
+    height: 400px;
+    top: -250px;
+    border-top: 10px solid #6435d7;
+    z-index: 20;
+    border-radius: 0px 0px;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    background: #462396;
+    z-index: 1000;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    top: 0px;
+    left: 0px;
+}
+
+.who h1{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    transform: scale(0.8);
+    top: 20px;
+    border-radius: 30px;
+    width: 70%;
+}
+
+.who svg{
+    width: 400px;
+    height: 400px;
+    background: #462396;
+    position: relative;
+    margin: 0px auto;
+    border-radius: 20px;
+    top: 0px;
+    padding: 20px;
+}
+
+.games{
+    top: -100px;
+    height: 505px;
+    background: #462396ba;
+}
+
+.games svg{
+    background: transparent;
+}
+
+.box{
+    max-width: 600px;
+    height: 650px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.40);
+    border-radius: 20px;
+    color: #fff;
+    border: 2px solid #5f31cb;
+    z-index: 10;
+}
+
+.box h1{
+    padding: 30px;
+}
+
+.box input{
+    width: 60%;
+    border: none;
+    border-radius: 20px;
+    background: #fff;
+    padding: 10px;
+    outline: none;
+    color: #5f31cb;
+    margin-top: 20px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.20);
+    outline: none;
+}
+
+.box a{
+    position: absolute;
+    padding: 15px;
+    outline: none;
+    color: #fff;
+    top: 83px;
+    border-radius: 10px;
+    font-size: 22px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.box input::placeholder{
+    color: #5f31cb;
+}
+
+.box button{
+    background: #5f31cb;
+    color: #fff;
+    top: 0px;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+
+.box .buttons{
+    position: relative;
+    top: 50px;
+}
+
+.register{
+    height: 1200px;
+}
+
+.register::before{
+    content: '';
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    bottom: 0px;
+    background: #6535d8;
+    left: 0px;
+}
+
+.chat{
+    top: 70px;
+    position: fixed;
+    height: 100%;
+}
+
+.chat .boo{
+    border: 1px solid #462396 !important;
+    position: relative;
+    height: 90vh;
+    background: transparent !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-bottom: 0px solid transparent !important;
+}
+
+.chat .chat_container{
+    color: #fff;
+}
+
+.chat .chat_container .important{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: #5f31cb;
+    padding: 10px;
+    position: relative;
+    top: -18px;
+}
+
+.chat .chat_container .important h1{
+    font-size: 22px;
+    position: relative;
+    top: 5px;
+}
+
+.noway{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.chat .noway{
+    background: #fff !important;
+}
+
+.chat .sendmsg{
+    width: 100%;
+    height: 60px;
+    background: #5f31cb;
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 1px solid #462396 !important;
+}
+
+.chat .sendmsg input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 22px;
+    border-bottom: 2px solid #462396 !important;
+    border-top: 2px solid #462396 !important;
+}
+
+.chat .sendmsg input::placeholder{
+    color: #fff;
+}
+
+.groupst{
+    width: 100%;
+    height: 60px;
+    background: #5f31cb;
+    position: relative;
+    top: -18px;
+    overflow: hidden;
+}
+
+.groupst .channel{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 130px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.groupst p{
+    position: absolute;
+    padding: 20px;
+    font-size: 22px;
+    background: #5f31cb;
+    border-bottom: 2px solid #fff;
+}
+
+.background{
+    position: fixed !important;
+    z-index: 0;
+    height: 200%;
+}
+
+.background::before{
+    content: '';
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    bottom: 0px;
+    background: #6535d8;
+    left: 0px;
+}
+
+.avatar{
+    position: absolute;
+    right: 17%;
+    background: #fff;
+    width: 45px;
+    height: 45px;
+    top: 10px;
+    border-radius: 50%;
+    background-image: url('https://store.playstation.com/store/api/chihiro/00_09_000/container/PT/pt/999/ET0001-NPEB00130_00-AVDISRUPTI000983/1550741352000/image?w=240&h=240&bg_color=000000&opacity=100&_version=00_09_000');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.menu{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    background: #824bff;
+    right: 16%;
+    border-left: 2px solid rgb(95, 49, 203);
+    border-bottom: 2px solid rgb(95, 49, 203);
+    padding: 10px;
+    top: 70px;
+}
+
+.menu:before{
+    content: "";
+    right: 28px;
+    width: 0; 
+    height: 0; 
+    top: -10px;
+    position: absolute;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #824bff;
+}
+
+.menu a{
+    display: block;
+    font-size: 22px;
+    color: #fff;
+}
+
+.config{
+    position: relative;
+    width: auto;
+    height: 500px;
+    background: transparent;
+    top: 70px;
+    margin: 0px auto;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    font-size: 22px;
+    color: #555;
+}
+
+.config h1{
+    font-size: 27px;
+    color: #151515;
+}
+
+.profile_o{
+    height: auto;
+    position: relative;
+    top: 70px;
+    margin: 0px;
+    background: rgba(0,0,0,.50);
+}
+
+.cover{
+    width: 100%;
+    height: 400px;
+    background: #462396;
+    background-image: url('https://i.pinimg.com/originals/90/cd/dc/90cddc7eeddbac6b17b4e25674e9e971.jpg');
+    background-size: cover;
+}
+
+.cover .avatarfull{
+    position: absolute;
+    right: 17%;
+    background: #fff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-image: url('https://store.playstation.com/store/api/chihiro/00_09_000/container/PT/pt/999/ET0001-NPEB00130_00-AVDISRUPTI000983/1550741352000/image?w=240&h=240&bg_color=000000&opacity=100&_version=00_09_000');
+    background-size: cover;
+    cursor: pointer;
+    position: absolute;
+    bottom: 70px;
+    left: 50px;
+    width: 170px;
+    height: 170px;
+}
+
+.cover .name{
+    position: absolute;
+    color: #fff;
+    bottom: 20px;
+    left: 20px;
+}
+
+.ads{
+    position: fixed;
+    width: 100%;
+    height: 200%;
+    z-index: 5000;
+    left: 0px;
+}
+
+.ads{
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('');
+    background-size: cover;
+    left: 0px;
+    top: 0px;
+}
+
+.chat_container{
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 99%;
+    top: -19px;
+}
+
+.chat_container .msgs{
+    width: 100%;
+    position: relative;
+    height: auto;
+    top: -15px;
+    color: #151515;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.chat_container .msgs .contents{
+    position: relative;
+    left: 70px;
+    width: 70%;
+    top: -20px;
+    color: #fff;
+}
+
+.chat_container .msgs li{
+    position: relative;
+    background: linear-gradient(0deg, rgba(101,53,216,0.8127626050420168) 0%, rgba(101,53,216,0.8547794117647058) 100%);
+}
+
+.chat_container .msgs .name{
+    font-size: 24px;
+}
+
+.avatarmsg{
+    position: relative;
+    background: #fff;
+    width: 45px;
+    height: 45px;
+    left: 10px;
+    top: 50px;
+    border-radius: 50%;
+    background-image: url('https://store.playstation.com/store/api/chihiro/00_09_000/container/PT/pt/999/ET0001-NPEB00130_00-AVDISRUPTI000983/1550741352000/image?w=240&h=240&bg_color=000000&opacity=100&_version=00_09_000');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.msgloading{
+    width: 100%;
+    background:linear-gradient( to left, #462396 10%, #5f31cb 20%, #6435d7 40%, #6535d8 100%);
+   -webkit-animation-duration: 2.5s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: example;
+  -webkit-animation-timing-function: linear;
+    height: 40px;
+    margin-top: 30px;
+}
+
+@-webkit-keyframes example {
+    0% {
+     background-position-x: -400px
+    }
+    100% {
+     background-position-x: 400px
+    }
+  }
+  
