@@ -6,7 +6,7 @@
       var totalImgFound = data.length;
       if(data.length > 0){
       for(var i = 0; i < data.length; i++){
-        $(".chat_container .msgs .before").before('<li><div class="avatarmsg"></div><p class="contents"><span class="name">' + data[i].name + '</span> -> ' + data[i].msg  + '</p></li>');
+        $(".chat_container .msgs .before").before('<li><div class="avatarmsg"></div><p class="contents"><span class="name">' + data[i].name + '</span> <br> ' + data[i].msg  + '</p></li>');
       } 
       }
       else{
