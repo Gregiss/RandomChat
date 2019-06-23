@@ -37,24 +37,23 @@
 
     <div class="container-fluid chat">
     <div class="row">
-        <div class="col-2 py-3 px-lg-5 border bg-light boo">
-        
+        <div class="col-2 py-3 px-lg-5 border bg-light boo adst">
+        <div class="ads" style="background-image:url('http://www.coca-colacompany.com/content/dam/journey/us/en/private/2010/01/lg_friendliest_drink-7d9d5526.jpg');"></div>
         </div>
         <div class="col py-3 boo bg-light noway">
-            <div class="chat_container">
-                <div class="groupst">
+        <div class="groupst">
                     <p>Servidores</p>
                     <?php for($i = 0; $i < 20; $i++){?>
                     <div class="channel"></div>
                     <?php } ?>
                 </div>
+            <div class="chat_container">
+                
                 <div class="important">
                 <h1>Seja bem vindo ao RandomChat</h1>
                 </div>
                 <div class="msgs">
-                <?php for($i = 0; $i < 10; $i++){?>
                 <div class="msgloading"></div>
-                <?php } ?>
                 <div class="before"></div>
                 </div>
             </div>
@@ -62,7 +61,8 @@
                     <input type="text" placeholder="Envie uma mensagem">
                 </div>
         </div>
-        <div class="col-2 py-3 px-lg-5 border bg-light boo">
+        <div class="col-2 py-3 px-lg-5 border bg-light boo adst">
+            <div class="ads" style="background-image:url('https://blog.printsome.com/wp-content/uploads/coca-cola-marketing.jpg');"></div>
         </div>
     </div>
     </div>

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>WorldChat</title>
+        <title>RandomChat</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -13,7 +13,7 @@
 
 <body>
     <div class="header">
-        <h1>WorldChat</h1>
+        <h1>RandomChat</h1>
     </div>
 
     <div class="container_blue register">

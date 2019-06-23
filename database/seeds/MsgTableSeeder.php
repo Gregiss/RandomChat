@@ -11,6 +11,6 @@ class MsgTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(\App\Msg::class, 10)->create();
+        factory(\App\Msg::class, 100)->create();
     }
 }

@@ -10,13 +10,12 @@ body,html{
 ::-webkit-scrollbar
 {
 	width: 12px;
-	background-color: #F5F5F5;
+	background-color: #824bff;
 }
 
 ::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #462396;
 }
 
@@ -188,6 +187,17 @@ button{
     height: 1200px;
 }
 
+.box .error{
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    background: #824bff;
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.40);
+}
+
 .register::before{
     content: '';
     width: 100%;
@@ -237,6 +247,7 @@ button{
 .noway{
     padding-right: 0px !important;
     padding-left: 0px !important;
+    overflow: hidden !important;
 }
 
 .chat .noway{
@@ -272,11 +283,12 @@ button{
 
 .groupst{
     width: 100%;
-    height: 60px;
+    height: 65px;
     background: #5f31cb;
     position: relative;
     top: -18px;
     overflow: hidden;
+    color: #fff;
 }
 
 .groupst .channel{
@@ -435,7 +447,6 @@ li a{
     position: fixed;
     width: 100%;
     height: 100%;
-    background-image: url('');
     background-size: cover;
     left: 0px;
     top: 0px;
@@ -445,7 +456,7 @@ li a{
     position: relative;
     overflow-x: hidden;
     overflow-y: auto;
-    max-height: 99%;
+    max-height: 94%;
     top: -19px;
 }
 
@@ -456,24 +467,29 @@ li a{
     top: -15px;
     color: #151515;
     padding: 20px;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .chat_container .msgs .contents{
     position: relative;
-    left: 70px;
+    left: 10px;
     width: 70%;
     top: -20px;
-    color: #fff;
+    color: #151515;
 }
 
 .chat_container .msgs li{
     position: relative;
-    background: linear-gradient(0deg, rgba(101,53,216,0.8127626050420168) 0%, rgba(101,53,216,0.8547794117647058) 100%);
+    margin-top: 10px;
+}
+
+.chat{
+    overflow: hidden !important;
 }
 
 .chat_container .msgs .name{
-    font-size: 27px;
+    font-size: 20px;
+    color: #462396;
 }
 
 .avatarmsg{
@@ -510,3 +526,21 @@ li a{
     }
   }
   
+.adst .ads{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+}
+
+.adst .ads::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,.50);
+}

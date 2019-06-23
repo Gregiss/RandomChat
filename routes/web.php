@@ -12,11 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('inicio');
 });
 
-Route::get('/register', function () {
-    return view('register');
+Route::get('/home', function () {
+    return view('home');
 });
 
 Route::get('/home', function () {
@@ -30,3 +30,7 @@ Route::get('/config', function () {
 Route::get('/profile', function () {
     return view('profile');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
