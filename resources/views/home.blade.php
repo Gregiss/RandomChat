@@ -32,7 +32,7 @@
             <div class="chat_container">
                 
                 <div class="important">
-                <h1>Seja bem vindo ao RandomChat</h1>
+                <h1>Seja bem vindo ao RandomChat {{ Auth::user()->name }}</h1>
                 </div>
                 <div class="msgs">
                 <div class="msgloading"></div>
