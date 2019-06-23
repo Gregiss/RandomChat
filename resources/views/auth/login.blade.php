@@ -4,7 +4,7 @@
 <div class="container_blue register">
         <div class="container">
             <div class="box">
-                <h1>Olá Usuario, faça o cadastro abaixo :D</h1>
+                <h1>Olá Usuario, faça o login abaixo :D</h1>
                 <form method="POST" action="{{ route('login') }}">
                  @csrf
                 <input type="email" class="@error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="E-mail">
